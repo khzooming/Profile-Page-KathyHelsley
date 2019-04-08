@@ -6,40 +6,120 @@
 
   <title>Profile Page KH</title>
 
- <!-- JQuery -->
- <script src="https://code.jquery.com/jquery.js"></script>
- <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
- <!-- JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
   <!-- CSS / Bootstrap  -->
   <link rel="stylesheet" href="./assets/reset.css">
   <link rel="stylesheet" href="./assets/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
+
 <body>
 
-    <div class="jumbotron">
-        <h1 class="display-4">Kathryn Helsley</h1>
-        <p class="lead">Here's an elevator pitch</p>
-        <hr class="my-4">
-        <p>Here's a description of the computer programming skills recently acquired.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  <div class="container">
+
+    <div class="jumbotron" id="header">
+      <h1 class="display-4">Kathryn Helsley</h1>
+    </div>
+
+    <!-- Row 1, small links left nav and larger content column -->
+    <div class="row">
+      <div class="col-md-3" id="leftNav">
+
+        <p id="contact">Cell 805.236.1900</p>
+        <p id="contact">khzoomer@gmail.com</p>
+
       </div>
 
-      
+      <div class="col-md-9">
+
+        <p class="lead main">Solid development and leadership experience including project management, agile, strategic
+          planning, business development, financial management, research, collaborative teamwork, and engineering.
+          Currently learning computer programming as a new passion.</p>
+        <!-- <hr class="my-4"> -->
+      </div>
+    </div>
+
+    <!-- Row 2, small links left nav and larger content column -->
+    <div class="row">
+      <div class="col-md-3" id="leftNav">
+        <p>www.linkedin.com/in/kathrynhelsley</p>
+      </div>
+
+      <div class="col-md-9">
+        <p class="lead main" id="lastPar">Continuous improvement focus from ten years at Toyota as an Engineer and
+          Project
+          Manager. Passionate about strong teamwork. Resource management experience. Successfully led large
+          multi-generational remote teams.</p>
+        <!-- <hr class="my-4"> -->
+
+      </div>
+
+    </div>
+
+    <div class="progContainer">
+<!-- Here's one linked GitHub project -->
+      <div class="row">
+        <h3 class=col-md-12" id="progTitle">Here's my latest programming examples!</h3>
+        <div id="progDescrip"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-4" id="linkedImg">
+          <a href="https://khzooming.github.io/CircusBear/" id="circus">
+            <img class="photo" src="./assets/images/circusBear_site.png"><img>
+          </a>
+          <p id="photoTitle">Ride Defied</p>
+          <a href="https://github.com/khzooming/CircusBear" id="photoTitle">GitHub Source</a>
+
+        </div>
+        
+        <!-- Here's the second linked GitHub project -->
+        <div class="col-md-4" id="linkedImg">
+          <a href="https://khzooming.github.io/CircusBear/" id="circus">
+            <img class="photo" src="./assets/images/gifsOcean_image.png"><img>
+          </a>
+          <p id="photoTitle">Gif Buttons</p>
+          <a href="https://khzooming.github.io/GifTastic/" id="photoTitle">GitHub Source</a>
+          
+        </div>
+     
+          <!-- Here's the third linked GitHub project -->
+          <div class="col-md-4" id="linkedImg">
+            <a href="https://khzooming.github.io/CircusBear/" id="circus">
+              <img class="photo" src="./assets/images/crystalCollector_image.png"><img>
+            </a>
+            <p id="photoTitle">Crystal Collectors Game</p>
+            <a href="https://github.com/khzooming/Crystal-Collectors-Game" id="photoTitle">GitHub Source</a>
+            
+          </div>
+    
+
+      </div>
+      </div>
+  
 
 
+    </div>
 
 
+  </div>
 
-    <script src="./assets/profile.js"></script>
+
+  <script src="./assets/profile.js"></script>
 
 </body>
+
 </html>
